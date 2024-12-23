@@ -1,0 +1,141 @@
+/* 전체페이지 */
+.page{
+    display: flex;
+    width: 1280px;
+    max-width: 1280px;
+    height: 2000px;
+    margin: 0px auto;
+    flex-direction: column;
+}
+
+.smallsize{
+    font-size: 10px;
+}
+.normalsize{
+    font-size: 12px;
+}
+.titlesize{
+    font-size: 23px;
+    font-weight: bolder;
+}
+.boldweight{
+    font-weight: bolder;
+}
+.circle{
+    width: 100%;
+    display: flex;
+}
+.circle2{
+    position: relative;
+    display: flex;
+}
+
+/* 이미지 사이즈 */
+.menuimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.menuimg2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menuimg3{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 3;
+}
+.menuimg4{
+    left: 80px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 2;
+}
+.menuimg5{
+    left: 150px;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;
+}
+/* 이미지 사이즈 */
+
+/* 각 div flex */
+.box{
+    margin:18px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+/* won위치 */
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/* + 위치 */
+.plus{
+    margin: 0px 35px;
+    display: flex;
+    align-items: center;
+}
+
+/* 윗 부분 */
+.uppage{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+/* 위->왼쪽부분 */
+.upleft{
+    width: 35%;
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+}
+
+/* 위->오른쪽부분 */
+.upright{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+}
+/* 위->오른쪽의 윗부분 */
+.uprightup{
+    color: black;
+    height: 55%;
+    background-color: white;
+}
+/* 위->오른쪽의 아래부분 */
+.uprightdown{
+    height: 45%;
+    color: black;
+    background-color: #D9D0C7;
+}
+
+
+.bottompage{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.bottomleft{
+    width: 50%;
+    background-color: red
+}
+.bottomright{
+    width: 50%;
+    background-color: blue
+}

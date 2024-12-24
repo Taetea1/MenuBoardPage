@@ -1,0 +1,66 @@
+/* 전체페이지 */
+.page {
+  display: flex;
+  width: 1280px;
+  max-width: 1280px;
+  height: max-content;
+  margin: 0px auto;
+  flex-direction: column;
+}
+
+/* 윗 부분 */
+.uppage {
+  display: flex;
+  width: 100%;
+}
+/* 윗 부분 */
+
+/* 위->왼쪽부분 */
+.upleft {
+  width: 40%;
+  padding: 10px;
+  background-color: #d9d0c7;
+}
+/* 위->왼쪽부분 */
+.left {
+  padding: 15px;
+}
+
+/* 위->오른쪽부분 */
+.upright {
+  display: flex;
+  width: 60%;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2efeb;
+}
+/* 위->오른쪽부분 */
+
+/* 글씨 */
+.boldweight {
+  font-weight: bolder;
+}
+.image {
+  width: 100%;
+}
+.price {
+  display: flex;
+  align-items: flex-end;
+}
+.or {
+  margin: 0px 10px;
+}
+.smallsize {
+  font-size: 10px;
+}
+.titlesize {
+  font-size: 23px;
+  font-weight: bolder;
+}
+.fontstyle {
+  padding: 15px 0px;
+  font-size: 18px;
+}
+/* 글씨 */

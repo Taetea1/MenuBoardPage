@@ -1,7 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 /* 전체페이지 */
 .page {
   display: flex;
-  width: 1280px;
   max-width: 1280px;
   height: fit-content;
   margin: 0px auto;
@@ -100,7 +102,7 @@
 
 /* + 위치 */
 .plus {
-  margin: 0px 50px;
+  margin: 0px 33px;
   display: flex;
   align-items: center;
 }
@@ -292,3 +294,69 @@
   margin-right: 40px;
 }
 /* 아래페이지-분식류 */
+
+@media screen and (max-width: 1180px) {
+  .uppage {
+    display: block;
+  }
+  .upleft,
+  .upright {
+    width: 100%;
+  }
+  .bottompage {
+    display: block;
+  }
+  .bottomleft,
+  .bottomright {
+    width: 100%;
+  }
+  .menuimg {
+    width: 80px;
+    height: 80px;
+  }
+  .sam {
+    .plus {
+      margin: 10px;
+    }
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  .soupimg2 {
+    left: 50px;
+  }
+  .soupimg3 {
+    left: 100px;
+  }
+
+  .smallsize {
+    font-size: 10px;
+  }
+  .normalsize {
+    font-size: 11px;
+  }
+  .titlesize {
+    font-size: 20px;
+  }
+
+  .spicyimg {
+    width: 200px;
+    height: 200px;
+  }
+  .spicyset {
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  /* .soupimg4 {
+    left: 50px;
+  }
+  .soupimg5 {
+    left: 100px;
+  }
+  .soupimg6 {
+    left: 100px;
+  } */
+}

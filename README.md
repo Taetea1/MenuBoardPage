@@ -25,12 +25,14 @@ src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=
 
 Html과 CSS로만 구현한 간단한 음식 메뉴판입니다.
 
+<br>
 
-## 주요 기능
-**메뉴판 상세로 이동**
-![Image](https://github.com/user-attachments/assets/f0ebd390-c8b6-4f8d-bd06-83567db4282c)
+## 주요 기능<br>
+**:one:메뉴판 상세로 이동**<br>
+![Image](https://github.com/user-attachments/assets/f0ebd390-c8b6-4f8d-bd06-83567db4282c)<br>
 - 메뉴판의 음식 사진 클릭시 해당 음식의 상세페이지로 이동
+<br><br>
 
-**메뉴판 반응형**
-![Image](https://github.com/user-attachments/assets/965ba02b-d384-4bbb-a39b-aa65dbaf5883)
-- 크기가 작아짐에 따라 요소들 재배치
+**:two:메뉴판 반응형**<br>
+![Image](https://github.com/user-attachments/assets/965ba02b-d384-4bbb-a39b-aa65dbaf5883)<br>
+- 크기가 작아짐에 따라 요소들 재배치<br>

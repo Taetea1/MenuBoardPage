@@ -23,3 +23,10 @@ src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=
 <img src="./images/readimg/menuboard.png" alt="소개 이미지" width="500" />
 
 Html과 CSS로만 구현한 간단한 음식 메뉴판입니다.
+
+
+## 주요 기능
+**메뉴판 상세로 이동**
+![Image](https://github.com/user-attachments/assets/f0ebd390-c8b6-4f8d-bd06-83567db4282c)
+
+**메뉴판 반응형**

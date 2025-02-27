@@ -3,6 +3,7 @@
 > **목차**
 > 1. [프로젝트 기술 스택 및 개발 환경](#프로젝트-기술-스택-및-개발-환경)
 > 2. [소개](#소개)
+> 3. [주요 기능](#주요-기능)
 
 </br>
 
@@ -28,5 +29,8 @@ Html과 CSS로만 구현한 간단한 음식 메뉴판입니다.
 ## 주요 기능
 **메뉴판 상세로 이동**
 ![Image](https://github.com/user-attachments/assets/f0ebd390-c8b6-4f8d-bd06-83567db4282c)
+- 메뉴판의 음식 사진 클릭시 해당 음식의 상세페이지로 이동
 
 **메뉴판 반응형**
+![Image](https://github.com/user-attachments/assets/965ba02b-d384-4bbb-a39b-aa65dbaf5883)
+- 크기가 작아짐에 따라 요소들 재배치
